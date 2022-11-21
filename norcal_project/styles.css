@@ -1,0 +1,13 @@
+body {
+    color:darkslateblue;
+    background-color:whitesmoke;
+  }
+  h1{
+    size:10px;
+    color:blue;
+    text-align:center;
+}
+  div{
+      align-items:left;
+      
+    }
