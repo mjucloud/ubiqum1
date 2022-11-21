@@ -1,13 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 body {
-    color:darkslateblue;
-    background-color:whitesmoke;
+    color:rgb(68, 55, 152);
+    background-color:white;
   }
   h1{
-    size:10px;
-    color:blue;
-    text-align:center;
-}
-  div{
-      align-items:left;
-      
-    }
+     padding: 20px 10px 22px 12px Top Right Bottom Left ;
+     border-bottom-left-radius: 1px solid #010167;
+     margin-top: 22px;
+     box-sizing: border-box;
+     display: block;
+     text-align: center;
+     font-size: 35pt;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+  }
+ 
+  .logotipo{ 
+       display:inline;
+       margin-left: 12px;
+       float: left;
+
+  }
+  .pic {
+    float: left
+  }
+  
+
+  nav{ 
+     margin-left: 10pt;
+     padding: 0;
+     align-items: center;
+  }
+
+  ul {
+        list-style-type: none;
+        margin-left: 10pt;
+        padding: 0;
+        overflow:hidden;
+        background-color: lightslategray;
+  }
+        li {
+            float: left;
+
+          }
+          
+          li a {
+            display: block;
+            background-color: lightslategray;
+            font-family:  'Lucida Sans';
+            font-size: 21pt;
+            Color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            
+          }
+  h3 {
+     display: block;
+     padding: 20px;
+     text-align: center;
+
+
+
+  }
+  
