@@ -7,14 +7,14 @@ body {
     color:rgb(68, 55, 152);
     background-color:white;
   }
-  h1{
-     padding: 20px 10px 22px 12px Top Right Bottom Left ;
-     border-bottom-left-radius: 1px solid #010167;
+  div{
+     padding: 20px ;
+     border: 1px solid #010167;
      margin-top: 22px;
      box-sizing: border-box;
      display: block;
      text-align: center;
-     font-size: 35pt;
+     font-size: 28pt;
      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 
@@ -24,10 +24,15 @@ body {
        display:inline;
        margin-left: 12px;
        float: left;
+       position: relative;
 
   }
   .pic {
-    float: left
+    float: left;
+    position: relative;
+    top: 200px;
+    right: 180px
+
   }
   
 
@@ -41,11 +46,12 @@ body {
         list-style-type: none;
         margin-left: 10pt;
         padding: 0;
-        overflow:hidden;
+        overflow:visible;
         background-color: lightslategray;
   }
         li {
-            float: left;
+            position: relative;
+            display: inline-block;
 
           }
           
@@ -53,19 +59,9 @@ body {
             display: block;
             background-color: lightslategray;
             font-family:  'Lucida Sans';
-            font-size: 21pt;
+            font-size: 18pt;
             Color: black;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
+            padding: 20px;
+          
             
           }
-  h3 {
-     display: block;
-     padding: 20px;
-     text-align: center;
-
-
-
-  }
-  
