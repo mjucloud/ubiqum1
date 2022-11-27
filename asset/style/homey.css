@@ -1,14 +1,15 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+  
+   
   }
 body {
     color:rgb(68, 55, 152);
     background-color:white;
   }
-  div{
-     padding: 20px ;
+ .principal { 
+     padding: 20px;
      border: 1px solid #010167;
      margin-top: 22px;
      box-sizing: border-box;
@@ -25,14 +26,15 @@ body {
        margin-left: 12px;
        float: left;
        position: relative;
-
+       vertical-align: text-top;
+      
   }
   .pic {
     float: left;
     position: relative;
     top: 200px;
-    right: 180px
-
+    right: 180px;
+    vertical-align: text-top;
   }
   
 
@@ -66,3 +68,60 @@ body {
             
           }
           
+    main{
+      position: relative;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 16pt;
+      padding: 10px;
+      border-radius: 0;
+      margin-top: 15px;
+    }
+  
+       dl{
+        padding:0.5em;
+        height: 350px;
+        width: 35%;
+
+       }
+       .dates{
+        clear: both;
+        font-weight: bold;
+        color: darkblue;
+        /* display: inline-flex; */
+        /* flex-direction: column; */
+        /* justify-content: space-around; */
+        flex-wrap: wrap;
+        width: 240px;
+        text-align: left;
+    }
+          dd{
+            padding: 0 0 0.5em 0;
+            line-height: 1;
+            margin: 20px;
+            text-align-last: center;
+          }
+ 
+ /*       dl{     
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0;
+  word-break: break-word;
+}
+
+dt {
+  width: 50%;
+  text-align: right;
+}
+
+dt:after {
+  content: ":";
+}
+
+dd {
+  box-sizing: border-box;
+  width: 50%;
+  padding-left: 1rem;
+}
+*/

@@ -7,7 +7,7 @@ body {
     color:rgb(68, 55, 152);
     background-color:white;
   }
-  div{
+  .principal{
      padding: 20px ;
      border: 1px solid #010167;
      margin-top: 22px;
@@ -21,7 +21,7 @@ body {
   }
  
   .logotipo{ 
-       display:inline;
+       display:flex;
        margin-left: 12px;
        float: left;
        position: relative;
@@ -31,8 +31,8 @@ body {
     float: left;
     position: relative;
     top: 200px;
-    right: 180px
-
+    right: 180px;
+    display: flex;
   }
   
 
@@ -40,6 +40,7 @@ body {
      margin-left: 10pt;
      padding: 0;
      align-items: center;
+     float: inline-start;
   }
 
   ul {
@@ -70,9 +71,5 @@ body {
      padding: 20px;
      position: relative;
      font-size: 15pt;
-
-
-
-
-  }
+    }
   
