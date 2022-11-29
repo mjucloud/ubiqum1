@@ -1,13 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+
 body {
     color:rgb(68, 55, 152);
-    background-color:white;
+    margin: 80px;
   }
-  div{
+  .principal{
      padding: 20px ;
      border: 1px solid #010167;
      margin-top: 22px;
@@ -19,22 +15,24 @@ body {
 
 
   }
- 
+  
   .logotipo{ 
-       display:inline;
-       margin-left: 12px;
-       float: left;
-       position: relative;
-
-  }
-  .pic {
+    display:flex;
+    margin-left: 12px;
     float: left;
     position: relative;
-    top: 200px;
-    right: 180px
+    top: 160px;
 
-  }
-  
+
+}
+.pic {
+  float: left;
+  position: relative;
+  top: 380px;
+  right: 200px;
+  display: flex;
+ }
+   
 
   nav{ 
      margin-left: 10pt;
@@ -64,5 +62,44 @@ body {
             padding: 20px;
           
             
+          }
+      
+          main{
+            padding: 0.5em;
+            margin: 1em;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-left: 150px;
+            position: relative;
+          }
+          .mission{
+            font-weight: bold;
+            width: 35%;
+            height: fit-content;
+            display: flex;
+            position: inherit;
+          }
+          section{
+            left: 200px;
+            position: relative;
+          }
+          .vision{
+            font-weight: bold;
+            width: 35%;
+            height: fit-content;
+            display: flex;
+            position: inherit;
+          }
+          .info {
+            font-weight: bold;
+            width: 35%;
+            height: fit-content;
+            display: flex;
+            position: inherit;
+          }
+          .text{
+            position: inherit;
+            width: 65%;
+            display: flex;
+            line-height: 1em;
           }
           

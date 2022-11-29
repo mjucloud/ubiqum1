@@ -1,12 +1,10 @@
-* {
-    margin: auto;
-    padding: auto;
+
   
    
-  }
+
 body {
     color:rgb(68, 55, 152);
-    background-color:white;
+    margin: 80px;
   }
  .principal { 
      padding: 20px;
@@ -22,18 +20,17 @@ body {
   }
  
   .logotipo{ 
-       display:inline;
-       margin-left: 12px;
-       float: left;
-       position: relative;
-       vertical-align: text-top;
-      
+    display:flex;
+    margin-left: 12px;
+    float: left;
+    position: relative;
+    top: 160px;
   }
   .pic {
     float: left;
     position: relative;
-    top: 200px;
-    right: 180px;
+    top: 360px;
+    right: 200px;
     vertical-align: text-top;
   }
   
@@ -90,7 +87,9 @@ body {
         /* display: inline-flex; */
         /* flex-direction: column; */
         /* justify-content: space-around; */
-        flex-wrap: wrap;
+        display: flex;
+        position: relative;
+        left: 260px;
         width: 240px;
         text-align: left;
     }
@@ -99,6 +98,8 @@ body {
             line-height: 1;
             margin: 20px;
             text-align-last: center;
+            left:300px;
+            position: relative;
           }
  
  /*       dl{     
