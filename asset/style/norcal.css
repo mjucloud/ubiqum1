@@ -3,69 +3,70 @@ body {
   color:rgb(68, 55, 152);
   margin: 80px;
 }
-  .principal { 
-    padding: 20px;
-    border: 1px solid #010167;
-    margin-top: 22px;
-    box-sizing: border-box;
-    display: block;
-    text-align: center;
-    font-size: 28pt;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.principal { 
+  text-align: center;
+  font-size: 28pt;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 270px;
+  float:inline-start;
+  position: relative;
+}
+
+.logotipo{ 
+ margin-left: 12px;
+ float: left;
+ position: relative;
+ align-items: start;
+ bottom: 170px;
+}
+.pic {
+ float: left;
+ position: relative;
+ top: 100px;
+ right: 200px;
+ vertical-align: text-top;
+}
 
 
- }
+nav{ 
+  margin-left: 10pt;
+  padding: 0;
+  align-items: center;
+}
 
- .logotipo{ 
-   display:flex;
-   margin-left: 12px;
-   float: left;
-   position: relative;
-   top: 160px;
- }
- .pic {
-   float: left;
-   position: relative;
-   top: 360px;
-   right: 200px;
-   vertical-align: text-top;
- }
- 
+ul {
+     list-style-type: none;
+     margin-left: 270px;
+     padding: 0;
+     overflow:visible;
+     background-color: lightslategray;
+     text-align: center;
+}
+     li {
+         position: relative;
+         display: inline-block;
+         text-decoration: none;
 
- nav{ 
-    margin-left: 10pt;
-    padding: 0;
-    align-items: center;
- }
+       }
+       
+       li a {
+         display: block;
+         background-color: lightslategray;
+         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         font-size: 18pt;
+         Color: black;
+         padding: 20px;
+         text-decoration: none;
 
- ul {
-       list-style-type: none;
-       margin-left: 10pt;
-       padding: 0;
-       overflow:visible;
-       background-color: lightslategray;
- }
-       li {
-           position: relative;
-           display: inline-block;
-
-         }
          
-         li a {
-           display: block;
-           background-color: lightslategray;
-           font-family:  'Lucida Sans';
-           font-size: 18pt;
-           Color: black;
-           padding: 20px;
-         
-           
-         }
+       }
   h3 {
      display: block;
      padding: 20px;
      position: relative;
      font-size: 15pt;
      text-align: center;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-weight: bold;
     }
   
