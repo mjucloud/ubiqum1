@@ -1,91 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  max-width: 900px;
+  margin: 0 auto;
+  color: #000;
+}
 
 body {
-  color:rgb(68, 55, 152);
-  margin: 80px;
+  color: rgb(68, 55, 152);
 }
-.principal { 
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.principal {
   text-align: center;
-  font-size: 28pt;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin-left: 270px;
-  float:inline-start;
+  font-size: 2.8rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-left: 32px;
+}
+
+.logotipo {
+  width: 80px;
+  height: 80px;
+}
+
+nav {
+  margin-bottom: 16px;
+}
+
+main {
+  display: flex;
+}
+
+main section {
+  margin: 25px;
+}
+.main-logo {
+  display: flex;
+  align-items: center;
+  padding: 16px 0;
+}
+
+.pic {
   position: relative;
+  vertical-align: text-top;
+  border-radius: 15px;
 }
 
-.logotipo{ 
- margin-left: 12px;
- float: left;
- position: relative;
- align-items: start;
- bottom: 170px;
-}
-.pic{
- float: left;
- position: relative;
- top: 100px;
- right: 200px;
- vertical-align: text-top;
-}
-
-
-nav{ 
-  margin-left: 10pt;
+nav {
   padding: 0;
   align-items: center;
 }
-ul{
-     list-style-type: none;
-     margin-left: 270px;
-     padding: 0;
-     overflow:visible;
-     background-color: lightslategray;
-     text-align: center;
+ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: visible;
+  background-color: lightslategray;
+  text-align: center;
 }
-     li {
-         position: relative;
-         display: inline-block;
-         text-decoration: none;
-       }
-       
-       li a {
-         display: block;
-         background-color: lightslategray;
-         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-         font-size: 18pt;
-         Color: black;
-         padding: 20px;
-         text-decoration: none;
+li {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
 
-         
-       }
-      
-          main{
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            position: relative;
-            margin:25px;
-           }
-          section{
-            margin-left: 400px;
-            position: relative;
-          }
-          .titlez{
-            font-weight: bold;
-            width: 350px;
-            display: block;
-            position:relative;
-            text-align: right;
-          }
-          
-          .text{
-            position: inherit;
-            width: 70%;
-            display: block;
-            line-height: 1em;
-          }
-          .link{
-            position: relative;
-            width:max-content;
-            line-height: 1em;
-           display:inline-block;
-          }
-          
+li a {
+  display: block;
+  background-color: lightslategray;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 18pt;
+  color: black;
+  padding: 20px;
+  text-decoration: none;
+}
+
+main {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  position: relative;
+}
+section {
+  position: relative;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.article-title {
+  margin-bottom: 8px;
+  font-size: 2rem;
+}
+
+.inside-content {
+  font-size: 1.6rem;
+}
+
+.quote {
+  background-color: #b0a8b9;
+  width: 200px;
+  font-style: italic;
+  padding: 8px;
+  margin-top: 8px;
+  border: 0;
+  border-left-width: 6px;
+  border-style: solid;
+  border-color: #002E78;
+}
+
+.titlez {
+  font-weight: bold;
+  width: 350px;
+  display: block;
+  position: relative;
+  text-align: right;
+}
+
+.text {
+  position: inherit;
+  width: 70%;
+  display: block;
+  line-height: 1em;
+}
+.link {
+  position: relative;
+  width: max-content;
+  line-height: 1em;
+  display: inline-block;
+}
